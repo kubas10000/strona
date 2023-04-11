@@ -45,6 +45,7 @@ for (let i = 0; i < 10; i++) {
         }
         row.appendChild(cell);
     }
+table.appendChild(row);
 }
 
 // Tworzenie listy z definicjami słów
