@@ -25,6 +25,18 @@ let crossword = [
     ["", "", "", "", "", "", "", "", "", ""]
 ];
 
+
+let myElement = document.getElementById("myElement");
+
+if (myElement) {
+  let newElement = document.createElement("div");
+  myElement.appendChild(newElement);
+} else {
+  console.log("Element o identyfikatorze myElement nie istnieje w dokumencie.");
+}
+
+
+
 // Tworzenie tabeli z polami krzyżówki
 let table = document.getElementById("crossword");
 for (let i = 0; i < 10; i++) {
